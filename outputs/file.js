@@ -1,7 +1,7 @@
 module.exports = function (config) {
   return function fileOutput (job, ffmpeg, done) {
     ffmpeg
-      .save(job.data.output.path)
+      .output(job.data.output.path)
       .on('progress', onProgress)
       .on('error', function(err) {
         done(err);
