@@ -1,6 +1,6 @@
 {
   "name": "web-video-worker",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Encode video ready for web using fluent-ffmpeg",
   "main": "lib/worker.js",
   "scripts": {
